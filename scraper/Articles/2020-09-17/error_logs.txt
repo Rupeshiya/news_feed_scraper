@@ -1,0 +1,825 @@
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+
+http://slate.com|slate|Traceback (most recent call last):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/news_paper.py", line 33, in process_articles
+    self.json_object_output_handler.accept(json_obj, json_str)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 41, in accept
+    self.store_into_database(json_obj)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 44, in store_into_database
+    if not self.is_duplicate(json_obj):
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/output.py", line 52, in is_duplicate
+    return self.mongo_connection.is_document_present(search_query, self.MONGO_COLLECTION)
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 47, in is_document_present
+    self.connect()
+  File "/mnt/d/Web/News-Feed-Scraper/src/scraper/utils/mongo_connection.py", line 27, in connect
+    logging.info("Attempting to connect to host: %s", host)
+NameError: name 'host' is not defined
+

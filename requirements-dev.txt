@@ -1,0 +1,16 @@
+newspaper3k==0.2.8
+jsonpickle==1.1.0
+simplejson==3.16.0
+pymongo==3.9.0
+dnspython==1.16.0
+environs==6.0.0
+cryptography==2.7
+
+# Dev specific dependencies
+pylint==2.3.0
+git-pylint-commit-hook==2.5.1
+pycodestyle==2.5.0
+mypy==0.730
+mockito==1.1.1
+flake8==3.7.6
+pep8-naming==0.5.0
