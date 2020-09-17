@@ -6,6 +6,7 @@ import jsonpickle
 
 class JsonPickleDecimal:
     @staticmethod
+    # convert complex objects to json format
     def encode(values: Any):
         jsonpickle.set_preferred_backend('simplejson')
         jsonpickle.set_encoder_options('simplejson', use_decimal=True, sort_keys=True)
@@ -14,6 +15,7 @@ class JsonPickleDecimal:
         return jsonpickle.encode(values, unpicklable=False)
 
     @staticmethod
+    # convert json string to python objects
     def decode(json: str) -> Any:
         jsonpickle.set_preferred_backend('simplejson')
         jsonpickle.set_decoder_options('simplejson', use_decimal=True)
@@ -21,16 +23,10 @@ class JsonPickleDecimal:
 
 
 class SimpleDecimalHandler(BaseHandler):
-    """
-    This is currently required to work around lack of support for Decimals in Json pickle. The support is meant to have
-    been added in version 1.1, and is documented, but at the time of writing, it's missing from the actual shipped code
-    Once the library reaches it's next version, this can be re-evaluated and potentially removed in favour of the new
-    use_decimal argument to the encode function. More information:
-    https://github.com/jsonpickle/jsonpickle/issues/244
-    https://stackoverflow.com/questions/54276418/jsonpickle-with-simplejson-backend-serializes-decimal-as-null
-    """
+    # Flatten obj into a json-friendly form and write result to data.
     def flatten(self, obj, data):
         return obj
 
+    # Restore an object from the json-friendly representation obj and return it.
     def restore(self, obj):
         return obj
