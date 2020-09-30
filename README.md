@@ -98,13 +98,7 @@ pip install -r requirements-dev.txt
 ```
 
 > **Note:** there is a separate requirements.txt file that excludes all but the dependencies required for deployment. Any production dependencies should be added to both files.
- 
-### Run tests:
----
 
-```
-python3 -m unittest
-```
 
 ### Run Linting:
 ---
