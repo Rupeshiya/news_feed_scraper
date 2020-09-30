@@ -5,11 +5,11 @@ from .cryptography_helper import CryptographyHelper
 
 @dataclass()
 class MongoConnectionSettings:
-    CONNECTION_STRING_TEMPLATE = 'mongodb+srv://<user>:<password>@cluster0.3ie9t.mongodb.net/<dbname>?retryWrites=true&w=majority'
+    CONNECTION_STRING_TEMPLATE = 'mongodb+srv://<user>:<password>@<host>/<dbname>?retryWrites=true&w=majority'
 
     def __init__(self):
-        self.host = os.getenv('mongodb')
-        self.username = os.getenv('rupesh')
-        self.password = CryptographyHelper.decrypt(os.getenv('abc123'))
+        self.host = os.getenv('MONGO_HOST')
+        self.username = os.getenv('MONGO_USER')
+        self.password = os.getenv('MONGO_PASS')
         self.database = os.getenv('MONGO_DATABASE')
         self.collections = os.getenv('MONGO_COLLECTIONS')

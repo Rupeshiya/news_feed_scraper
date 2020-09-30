@@ -19,10 +19,10 @@ class MongoConnection:
         connection_string_template = self.mongo_connection_settings.CONNECTION_STRING_TEMPLATE
         user = self.mongo_connection_settings.username
         password = self.mongo_connection_settings.password
-        # host = self.mongo_connection_settings.host
+        host = self.mongo_connection_settings.host
         database = self.mongo_connection_settings.database
-        # connection_string = connection_string_template.replace('<dbuser>', user).replace('<dbpassword>', password).replace('<host>', host)
-        connection_string = 'mongodb+srv://rupesh:rupesh123@cluster0.3ie9t.mongodb.net/intelli?retryWrites=true&w=majority'
+        connection_string = connection_string_template.replace('<dbuser>', user).replace('<dbpassword>', password).replace('<host>', host)
+        # connection_string = 'mongodb+srv://rupesh:rupesh123@cluster0.3ie9t.mongodb.net/intelli?retryWrites=true&w=majority'
 
         logging.info("Attempting to connect to host: %s", host)
 
